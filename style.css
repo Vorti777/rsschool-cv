@@ -48,4 +48,16 @@ body {
 
 .nav-link:hover {
   color: brown;
-} 
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+
+
