@@ -16,19 +16,14 @@ body {
   font-family: "PT Serif", serif;
 }
 
-.header,
-.main,
-.footer {
-  border: 1px solid red;
-}
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid black;
+  
 }
 
-.nav-list {
+.nav-list, .footer-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -38,12 +33,16 @@ body {
   list-style: none;
 }
 
-.nav-link {
+.nav-link, .footer-link {
   padding: 0 20px;
   line-height: 50px;
   font-size: 16px;
   color: black;
   transition: 0.3s;
+}
+
+.footer-link {
+  font-size: 32px;
 }
 
 .nav-link:hover {
@@ -62,43 +61,33 @@ body {
   border-bottom: 2px solid #8c8885;
 }
 
-.section:nth-child(2n) {
-  margin-left: 6%;
+.section:nth-child(2n+1) {
+  margin-right: 6%;
   background: #f5ece5;
-  
 }
 
 
 .section:nth-last-child(-n+2), .education {
   border-bottom-width: 0;
-  
 }
 
-/*!
-
-.section:nth-last-child(n+2) {
-  border-bottom-width: 0;
-  
+.profile img {
+  margin: auto;
 }
 
-.section :last-child {
-  border-bottom-width: 0;
-  
+.profile {
+  text-align: center;
 }
 
-.education {
-  border-bottom-width: 0;
-  
+.footer {
+  padding-top: 5px;
 }
-  
-.skills {
-  margin-left: 15px;
-  box-sizing: content-box;
-  font-size: 18px;
-  font-weight: 400;
-} 
 
-*/ 
+.footer, .header {
+  background: #d1cecb;
+}
+
+
 
 
 
