@@ -55,9 +55,54 @@ body {
   flex-wrap: wrap;
 }
 
+
 .section {
-  width: 50%;
+  width: 47%;
+  padding: 15px;
+  border-bottom: 2px solid #8c8885;
 }
+
+.section:nth-child(2n) {
+  margin-left: 6%;
+  background: #f5ece5;
+  
+}
+
+
+.section:nth-last-child(-n+2), .education {
+  border-bottom-width: 0;
+  
+}
+
+/*!
+
+.section:nth-last-child(n+2) {
+  border-bottom-width: 0;
+  
+}
+
+.section :last-child {
+  border-bottom-width: 0;
+  
+}
+
+.education {
+  border-bottom-width: 0;
+  
+}
+  
+.skills {
+  margin-left: 15px;
+  box-sizing: content-box;
+  font-size: 18px;
+  font-weight: 400;
+} 
+
+*/ 
+
+
+
+
 
 
 
