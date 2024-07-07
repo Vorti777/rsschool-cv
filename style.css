@@ -14,13 +14,27 @@ body {
   margin: 0;
   padding: 0;
   font-family: "PT Serif", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
 }
 
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #6d8070;
+}
+
+.profile h1 {
+  font-size: 24px;
+}
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  
 }
 
 .nav-list, .footer-list {
@@ -54,7 +68,6 @@ body {
   flex-wrap: wrap;
 }
 
-
 .section {
   width: 47%;
   padding: 15px;
@@ -77,6 +90,11 @@ body {
 
 .profile {
   text-align: center;
+}
+
+.contacts ul {
+  padding-left: 0;
+  list-style: none;
 }
 
 .footer {
