@@ -1,16 +1,115 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
 }
-table {
-    border-collapse: collapse;
+
+html {
+  scroll-behavior: smooth;
 }
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Serif", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
 }
-table.border th {
-    background: #e0e0e0;
+
+.section-title {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #6d8070;
 }
+
+.profile h1 {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list, .footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-link, .footer-link {
+  padding: 0 20px;
+  line-height: 50px;
+  font-size: 16px;
+  color: black;
+  transition: 0.3s;
+}
+
+.footer-link {
+  font-size: 32px;
+}
+
+.nav-link:hover {
+  color: brown;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 47%;
+  padding: 15px;
+  border-bottom: 2px solid #8c8885;
+}
+
+.section:nth-child(2n+1) {
+  margin-right: 6%;
+  background: #f5ece5;
+}
+
+
+.section:nth-last-child(-n+2), .education {
+  border-bottom-width: 0;
+}
+
+.profile img {
+  margin: auto;
+}
+
+.profile {
+  text-align: center;
+}
+
+.contacts ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer {
+  padding-top: 5px;
+}
+
+.footer, .header {
+  background: #d1cecb;
+}
+
+
+
+
+
+
+
+
+
